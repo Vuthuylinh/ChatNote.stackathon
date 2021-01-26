@@ -6,7 +6,7 @@ import Onboarding from 'react-native-onboarding-swiper';
 const Skip = ({ ...props }) => {
   return (
     <TouchableOpacity {...props}>
-      <Text>Skip</Text>
+      <Text>Note</Text>
     </TouchableOpacity>
   )
 }
@@ -20,7 +20,7 @@ const Next = ({ ...props }) => {
 const Done = ({ ...props }) => {
   return (
     <TouchableOpacity {...props}>
-      <Text>Done</Text>
+      <Text>Chat</Text>
     </TouchableOpacity>
   )
 }
@@ -44,8 +44,8 @@ const OnboardingScreen = ({ navigation }) => {
       NextButtonComponent={Next}
       DoneButtonComponent={Done}
       DotComponent ={Dots}
-      onSkip={() => navigation.replace("Notes")}
-      onDone={() => navigation.replace("Chat")}
+      onSkip={() => navigation.navigate("Notes")}
+      onDone={() => navigation.navigate("Chat")}
       pages={[
         {
           backgroundColor: '#a6e4d0',

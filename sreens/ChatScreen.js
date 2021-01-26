@@ -8,12 +8,13 @@ import * as firebase from 'firebase'
 import 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCc0JoixDV2BL41ydOF14NBnPkvGis8_jw",
-  authDomain: "chatapp-2b91b.firebaseapp.com",
-  projectId: "chatapp-2b91b",
-  storageBucket: "chatapp-2b91b.appspot.com",
-  messagingSenderId: "929743646935",
-  appId: "1:929743646935:web:7c25e3600aa13176d6c092"
+  apiKey: "AIzaSyC8ZhJfMnRMEShpUgz_lzGdrkw5PLApkbw",
+  authDomain: "stackathonchatnote.firebaseapp.com",
+  projectId: "stackathonchatnote",
+  storageBucket: "stackathonchatnote.appspot.com",
+  messagingSenderId: "229246196629",
+  appId: "1:229246196629:web:46606e685fc46effa8349c",
+  databaseURL:"https://stackathonchatnote-default-rtdb.firebaseio.com/"
 };
 
 if (firebase.apps.length === 0) {
