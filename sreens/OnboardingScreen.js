@@ -50,14 +50,14 @@ const OnboardingScreen = ({ navigation }) => {
         {
           backgroundColor: '#a6e4d0',
           image: <Image source={require('../assets/book_icon.png')} />,
-          title: 'Read some book',
-          subtitle: 'Onboarding1',
+          title: 'Reading book',
+          subtitle: 'is dreaming with open eyes',
         },
         {
           backgroundColor: '#fdeb93',
           image: <Image source={require('../assets/searchicon.png')} />,
-          title: 'Take some note',
-          subtitle: 'onboarding2',
+          title: 'Take some notes',
+          subtitle: 'When your heart speaks, take good note',
         },
         {
           backgroundColor: '#e9bcbe',
