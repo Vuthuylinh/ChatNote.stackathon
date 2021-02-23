@@ -15,6 +15,15 @@ When I was a restaurant manager, every day, I had to talk with many people inclu
 - To get demo on iOs emulator: please download Xcode application and follow these steps: Choose Xcode > Open Developer Tool > Simulator (watchOS).
 
 ---
+### Tech stacks:
+- React Native
+- Firebase realtime database
+- Firebase cloud firestore
+- Expo
+- Android studio
+- Xcode
+
+---
 ### :herb: Features:
  - Onboarding screen including navigator to chat-screen and note-screen
  - On chat-screen: user can type in chat with other user
