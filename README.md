@@ -13,7 +13,7 @@ After that,I needed to remember what happen during the conversation, especially 
 - With Expo installed, you can then run `expo start` to launch the app.
 - To get demo on Android emulator: please download Android studio application and follow the setup steps [here](https://docs.expo.io/workflow/android-studio-emulator/)
 - To get demo on iOs emulator: please download Xcode application and follow these steps: Choose Xcode > Open Developer Tool > Simulator (watchOS).
-### sparkles: Features:
+### :herb: Features:
  - Onboarding screen including navigator to chat-screen and note-screen
  - On chat-screen: user can type in chat with other user
  - On note-screen: user can take notes, cancel and delete thier notes.
